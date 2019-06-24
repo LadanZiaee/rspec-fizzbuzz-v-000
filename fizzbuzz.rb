@@ -3,7 +3,9 @@
 def fizzbuzz(fizz)
   if fizz % 3 == 0 
     "Fizz"
-  else
-    "nil"
-   
+    elsif fizz % 5 == 0 
+      "Buzz"
+    else
+      "nil"
+  end
 end
