@@ -7,7 +7,5 @@ def fizzbuzz(fizz)
       "Buzz"
       elsif fizz % 15 == 0 
         "FizzBuzz"
-    else
-      "nil"
   end
 end
